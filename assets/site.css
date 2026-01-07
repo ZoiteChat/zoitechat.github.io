@@ -14,6 +14,7 @@
 html,body{height:100%}
 body{
   margin:0;
+  overflow-x:hidden;
   background:var(--bg);
   color:var(--text);
   font-family:ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
@@ -72,9 +73,7 @@ a:hover{text-decoration:underline}
 }
 
 .content{padding:1.6rem 1.25rem 2.25rem}
-.content__inner{max-width:var(--max); margin:0 auto
-  overflow-wrap:anywhere;
-}
+.content__inner{max-width:var(--max); margin:0 auto}
 
 .page-title{display:none}
 
@@ -140,9 +139,14 @@ a:hover{text-decoration:underline}
 .grid{
   margin-top:1rem;
   display:grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns:repeat(3, 1fr);
   gap:1rem;
 }
+.grid > *{min-width:0}
+
+.grid--downloads{grid-template-columns:repeat(2, minmax(0, 1fr))}
+.grid--downloads > :nth-child(3){grid-column:1 / -1}
+
 .grid > *{min-width:0}
 
 .grid .card{padding:1.1rem}
