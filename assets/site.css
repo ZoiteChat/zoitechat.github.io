@@ -72,7 +72,9 @@ a:hover{text-decoration:underline}
 }
 
 .content{padding:1.6rem 1.25rem 2.25rem}
-.content__inner{max-width:var(--max); margin:0 auto}
+.content__inner{max-width:var(--max); margin:0 auto
+  overflow-wrap:anywhere;
+}
 
 .page-title{display:none}
 
@@ -90,6 +92,8 @@ a:hover{text-decoration:underline}
   gap:1rem;
   align-items:stretch;
 }
+.hero > *{min-width:0}
+
 .hero__left{padding:1.4rem 1.4rem}
 .hero__right{padding:1.4rem 1.4rem}
 
@@ -136,9 +140,11 @@ a:hover{text-decoration:underline}
 .grid{
   margin-top:1rem;
   display:grid;
-  grid-template-columns:repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap:1rem;
 }
+.grid > *{min-width:0}
+
 .grid .card{padding:1.1rem}
 .grid h3{margin:.1rem 0 .35rem; font-size:1.02rem}
 .grid p{margin:0; color:var(--muted)}
@@ -181,6 +187,10 @@ hr{border:0; border-top:1px solid var(--border); margin:1.25rem 0}
 
 code, pre{
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+  max-width:100%;
+
+  min-width:0;
 }
 pre{
   padding:1rem;
