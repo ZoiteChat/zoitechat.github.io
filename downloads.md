@@ -36,13 +36,13 @@ flatpak install --user ./io.github.Zoitechat.flatpak
 
 # 4) run it
 flatpak run io.github.Zoitechat</code></pre>
-    <p class="muted"><strong>Known issue:</strong> the Python plugin currently freezes the client. Disable the Python plugin (or run with <code>--no-plugins</code>) until fixed.</p>
+    <p class="muted"><strong>Known issue:</strong> the Python plugin currently freezes the client. We removed it from this release.</p>
   </section>
 
   <section class="card">
     <h3>Documentation</h3>
     <p>The docs live here:</p>
-    <p><a class="btn" href="{{ site.docs_url | relative_url }}">/docs/en/latest/</a></p>
+    <p><a class="btn" href="{{ site.docs_url | relative_url }}"></a></p>
   </section>
 </div>
 
