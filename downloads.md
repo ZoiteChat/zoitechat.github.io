@@ -42,7 +42,7 @@ flatpak run io.github.Zoitechat</code></pre>
   <section class="card">
     <h3>Documentation</h3>
     <p>The docs live here:</p>
-    <p><a class="btn" href="{{ site.docs_url | relative_url }}"></a></p>
+    <p><a class="btn" href="{{ site.docs_url | relative_url }}">Click here</a></p>
   </section>
 </div>
 
