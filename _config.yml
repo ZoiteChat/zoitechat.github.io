@@ -1,0 +1,25 @@
+# ZoiteChat website (GitHub Pages / Jekyll)
+
+title: ZoiteChat
+description: A clean, modern IRC client based on HexChat
+url: ""          # set to https://<user>.github.io or your custom domain
+baseurl: ""      # keep empty for root hosting
+
+# Project metadata
+repo_url: "https://github.com/deepend-tildeclub/zoitechat"
+docs_url: "/docs/en/latest/"
+hexchat_base_version: "2.16.2"
+zoitechat_initial_version: "2.17.0"
+
+# Permalinks
+permalink: /news/:title/
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+exclude:
+  - README.md

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <link rel="icon" href="{{ "/assets/mark.svg" | relative_url }}" type="image/svg+xml">
+    <link rel="alternate" type="application/atom+xml" title="{{ site.title }} News" href="{{ "/atom.xml" | relative_url }}" />
+
+    <link rel="stylesheet" href="{{ "/assets/site.css" | relative_url }}" />
+  </head>
+  <body>
+    <a class="skip" href="#content">Skip to content</a>
+
+    <header class="topbar">
+      <div class="topbar__inner">
+        <a class="brand" href="{{ "/" | relative_url }}" aria-label="ZoiteChat home">
+          <img class="brand__mark" src="{{ "/assets/mark.svg" | relative_url }}" width="28" height="28" alt="" />
+          <div class="brand__text">
+            <div class="brand__name">{{ site.title }}</div>
+            <div class="brand__tag">IRC client · based on HexChat</div>
+          </div>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <a class="nav__link" href="{{ "/downloads.html" | relative_url }}">Download</a>
+          <a class="nav__link" href="{{ "/news.html" | relative_url }}">News</a>
+          <a class="nav__link" href="{{ site.docs_url | relative_url }}">Docs</a>
+          <a class="nav__link" href="{{ site.repo_url }}" rel="noopener">GitHub</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="content" class="content">
+      <div class="content__inner">
+        {% if page.title %}<h1 class="page-title">{{ page.title }}</h1>{% endif %}
+        {{ content }}
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__left">
+          <div class="footer__line">
+            <span class="muted">ZoiteChat</span>
+            <span class="dot">•</span>
+            <a href="{{ site.repo_url }}">Source</a>
+            <span class="dot">•</span>
+            <a href="{{ "/news.html" | relative_url }}">Release notes</a>
+          </div>
+          <div class="footer__line muted">
+            Built with Jekyll for GitHub Pages.
+          </div>
+        </div>
+        <div class="footer__right muted">
+          <a href="{{ "/atom.xml" | relative_url }}">Atom feed</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<article class="post">
+  <header class="post__header">
+    <h1 class="post__title">{{ page.title }}</h1>
+    <p class="post__meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+    </p>
+  </header>
+
+  <div class="post__body">
+    {{ content }}
+  </div>
+
+  <footer class="post__footer">
+    <a href="{{ "/news.html" | relative_url }}">← Back to News</a>
+  </footer>
+</article>
