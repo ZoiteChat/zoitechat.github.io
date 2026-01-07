@@ -14,7 +14,7 @@ description: ZoiteChat is a modern IRC client based on HexChat.
     </p>
 
     <div class="actions">
-      <a class="btn btn--primary" href="{{ "/downloads.html" | relative_url }}">Get ZoiteChat</a>
+      <a class="btn btn--primary" href="{{ "/downloads" | relative_url }}">Get ZoiteChat</a>
       <a class="btn" href="{{ site.docs_url | relative_url }}">Documentation</a>
       <a class="btn" href="{{ site.repo_url }}">View on GitHub</a>
     </div>
@@ -39,7 +39,7 @@ description: ZoiteChat is a modern IRC client based on HexChat.
 
     <div class="kicker">Quick links</div>
     <ul style="margin:.5rem 0 0; padding-left:1.15rem;">
-      <li><a href="{{ "/news.html" | relative_url }}">Release notes</a></li>
+      <li><a href="{{ "/news" | relative_url }}">Release notes</a></li>
       <li><a href="{{ site.docs_url | relative_url }}">Docs</a></li>
       <li><a href="{{ site.repo_url }}/issues">Issue tracker</a></li>
     </ul>
