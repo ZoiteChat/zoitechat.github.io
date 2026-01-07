@@ -6,7 +6,7 @@ url: ""          # set to https://<user>.github.io or your custom domain
 baseurl: ""      # keep empty for root hosting
 
 # Project metadata
-repo_url: "https://github.com/deepend-tildeclub/zoitechat"
+repo_url: "https://github.com/zoitechat/zoitechat"
 docs_url: "/docs/en/latest/"
 hexchat_base_version: "2.16.2"
 zoitechat_initial_version: "2.17.0"
