@@ -9,7 +9,7 @@ description: ZoiteChat is a modern IRC client based on HexChat.
     <div class="kicker">Simple. Fast. Familiar.</div>
     <h1 class="h1">ZoiteChat</h1>
     <p class="lead">
-      A clean IRC client based on the HexChat.
+      A clean IRC client based on HexChat.
       ZoiteChat started from <strong>HexChat {{ site.hexchat_base_version }}</strong> with the initial ZoiteChat at <strong>{{ site.zoitechat_initial_version }}</strong>.
     </p>
 
