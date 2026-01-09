@@ -26,7 +26,7 @@ title: Downloads
     <h3>Manual Flatpak install</h3>
     <p>Download the <code>.flatpak</code> bundle from the Releases page, then install it locally:</p>
     <pre><code># 1) (one-time) ensure Flatpak is installed
-#    (use your distro package manager)
+#     (use your distro package manager)
 
 # 2) (recommended) add Flathub so runtimes can be pulled automatically
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
