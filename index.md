@@ -20,6 +20,7 @@ description: ZoiteChat is a modern IRC client based on HexChat.
     </div>
 
     <div class="badges">
+      <span class="badge">Windows</span>
       <span class="badge">Flatpak</span>
       <span class="badge">Plugins</span>
       <span class="badge">Themes</span>
@@ -31,7 +32,7 @@ description: ZoiteChat is a modern IRC client based on HexChat.
     <div class="kicker">Status</div>
     <h2 style="margin:.35rem 0 .6rem; font-size:1.15rem;">Flatpak notes</h2>
     <p class="lead" style="margin:0;">
-      The Flatpak build is available, but the <strong>Python plugin currently breaks the client</strong>.
+      The Flatpak and Windows build are available, but the <strong>Python plugin in the Flatpak build currently breaks the client</strong>.
       A fix is in progress.
     </p>
 
