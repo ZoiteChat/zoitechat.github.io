@@ -7,7 +7,7 @@
 		<!-- item>
 			<title>2.10.2</title>
 			<sparkle:releaseNotesLink>
-				https://raw.githubusercontent.com/zoitechat/documentation/master/changelog.rst
+				https://raw.githubusercontent.com/ZoiteChat/zoitechat/refs/heads/master/changelog.rst
 			</sparkle:releaseNotesLink>
 			<pubDate>25 Nov 2014</pubDate>
 			<enclosure url="https://zoitechat.github.io/zoitechat/osx/ZoiteChat-2.10.2.app.zip"
@@ -18,7 +18,7 @@
 		<item>
 			<title>2.17.3</title>
 			<sparkle:releaseNotesLink>
-				https://github.com/ZoiteChat/zoitechat/releases/tag/zoitechat-2.17.3
+				https://raw.githubusercontent.com/ZoiteChat/zoitechat/refs/heads/master/changelog.rst
 			</sparkle:releaseNotesLink>
 			<pubDate>17 Jan 2026</pubDate>
 			<enclosure url="https://github.com/ZoiteChat/zoitechat/releases/download/zoitechat-2.17.3/ZoiteChat-2.17.3_x86.exe"
@@ -30,7 +30,7 @@
 		<item>
 			<title>2.17.3</title>
 			<sparkle:releaseNotesLink>
-				https://github.com/ZoiteChat/zoitechat/releases/tag/zoitechat-2.17.3
+				https://raw.githubusercontent.com/ZoiteChat/zoitechat/refs/heads/master/changelog.rst
 			</sparkle:releaseNotesLink>
 			<pubDate>17 Jan 2026</pubDate>
 			<enclosure url="https://github.com/ZoiteChat/zoitechat/releases/download/zoitechat-2.17.3/ZoiteChat-2.17.3_x64.exe"
