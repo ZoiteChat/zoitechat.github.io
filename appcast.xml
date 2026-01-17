@@ -16,26 +16,26 @@
 					   sparkle:minimumSystemVersion="10.9"/>
 		</item -->
 		<item>
-			<title>2.17.2</title>
+			<title>2.17.3</title>
 			<sparkle:releaseNotesLink>
-				https://raw.githubusercontent.com/zoitechat/documentation/master/changelog.rst
+				https://github.com/ZoiteChat/zoitechat/releases/tag/zoitechat-2.17.3
 			</sparkle:releaseNotesLink>
-			<pubDate>13 Jan 2026</pubDate>
-			<enclosure url="https://github.com/ZoiteChat/zoitechat/releases/download/zoitechat-2.17.2/ZoiteChat-2.17.2_x86.exe"
+			<pubDate>17 Jan 2026</pubDate>
+			<enclosure url="https://github.com/ZoiteChat/zoitechat/releases/download/zoitechat-2.17.3/ZoiteChat-2.17.3_x86.exe"
 					   type="application/exe"
-					   sparkle:version="2.17.2"
+					   sparkle:version="2.17.3"
 					   sparkle:os="windows-x86"
 					   sparkle:minimumSystemVersion="6.1"/>
 		</item>
 		<item>
-			<title>2.17.2</title>
+			<title>2.17.3</title>
 			<sparkle:releaseNotesLink>
-				https://raw.githubusercontent.com/zoitechat/documentation/master/changelog.rst
+				https://github.com/ZoiteChat/zoitechat/releases/tag/zoitechat-2.17.3
 			</sparkle:releaseNotesLink>
-			<pubDate>13 Jan 2026</pubDate>
-			<enclosure url="https://github.com/ZoiteChat/zoitechat/releases/download/zoitechat-2.17.2/ZoiteChat-2.17.2_x64.exe"
+			<pubDate>17 Jan 2026</pubDate>
+			<enclosure url="https://github.com/ZoiteChat/zoitechat/releases/download/zoitechat-2.17.3/ZoiteChat-2.17.3_x64.exe"
 					   type="application/exe"
-					   sparkle:version="2.17.2"
+					   sparkle:version="2.17.3"
 					   sparkle:os="windows-x64"
 					   sparkle:minimumSystemVersion="6.1"/>
 		</item>
